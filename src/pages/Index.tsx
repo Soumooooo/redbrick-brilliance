@@ -67,6 +67,7 @@ const Index = () => {
             <AboutSection />
             <ServicesSection />
             <ProjectsSection />
+            <ClientsSection />
             <HorizontalGallery />
             <ParallaxSection />
             <WhyChooseUs />
