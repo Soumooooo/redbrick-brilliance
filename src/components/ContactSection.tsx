@@ -76,6 +76,15 @@ const ContactSection = () => {
                     Shyam Bose Road, Chetla,<br />
                     Kolkata 700027
                   </p>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=KIT+Building+Block+E+Room+17+Shyam+Bose+Road+Chetla+Kolkata+700027"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 mt-2 text-xs font-medium text-primary hover:text-primary/80 transition-colors"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    Open in Google Maps
+                  </a>
                 </div>
               </div>
             </div>
