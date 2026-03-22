@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Phone, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin, Mail, ExternalLink } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
