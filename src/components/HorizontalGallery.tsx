@@ -27,7 +27,9 @@ const HorizontalGallery = () => {
   const trackRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    const mm = gsap.matchMedia();
+
+    mm.add("(min-width: 768px)", () => {
       const track = trackRef.current;
       if (!track) return;
 
@@ -45,9 +47,9 @@ const HorizontalGallery = () => {
           anticipatePin: 1,
         },
       });
-    }, sectionRef);
+    });
 
-    return () => ctx.revert();
+    return () => mm.revert();
   }, []);
 
   return (
