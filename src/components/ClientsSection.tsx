@@ -69,7 +69,7 @@ const ClientsSection = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-[filter] duration-500"
+                  className="max-w-full max-h-full object-contain"
                 />
               </div>
             ))}
@@ -87,7 +87,7 @@ const ClientsSection = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-[filter] duration-500"
+                  className="max-w-full max-h-full object-contain"
                 />
               </div>
             ))}
