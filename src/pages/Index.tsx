@@ -59,24 +59,22 @@ const Index = () => {
   return (
     <>
       {loading && <Preloader onComplete={handlePreloaderComplete} />}
-      {!loading && (
-        <>
-          <Navbar />
-          <main>
-            <HeroSection />
-            <AboutSection />
-            <ServicesSection />
-            <ProjectsSection />
-            <ClientsSection />
-            <HorizontalGallery />
-            <ParallaxSection />
-            <WhyChooseUs />
-            <ContactSection />
-          </main>
-          <Footer />
-          <FloatingWidget />
-        </>
-      )}
+      <div style={{ visibility: loading ? "hidden" : "visible" }}>
+        <Navbar />
+        <main>
+          <HeroSection />
+          <AboutSection />
+          <ServicesSection />
+          <ProjectsSection />
+          <ClientsSection />
+          <HorizontalGallery />
+          <ParallaxSection />
+          <WhyChooseUs />
+          <ContactSection />
+        </main>
+        <Footer />
+        <FloatingWidget />
+      </div>
     </>
   );
 };

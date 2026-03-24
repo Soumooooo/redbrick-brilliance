@@ -17,7 +17,7 @@ const Navbar = () => {
     gsap.fromTo(
       navRef.current,
       { y: -60, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.7, delay: 2.5, ease: "power3.out" }
+      { y: 0, opacity: 1, duration: 0.7, delay: 0.3, ease: "power3.out" }
     );
   }, []);
 
