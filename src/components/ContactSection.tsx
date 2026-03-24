@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Phone, MapPin, Mail, ExternalLink } from "lucide-react";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -98,6 +99,20 @@ const ContactSection = () => {
             </div>
             <input className={inputClass} type="email" placeholder="Email address" required />
             <input className={inputClass} placeholder="Phone number" />
+            <Select>
+              <SelectTrigger className="w-full bg-background border border-border rounded-lg px-4 py-3 h-auto text-sm text-foreground focus:ring-2 focus:ring-primary/30">
+                <SelectValue placeholder="Select a service…" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="mall-showroom">Mall & Showroom Design</SelectItem>
+                <SelectItem value="dark-store">Dark Store Fit-out</SelectItem>
+                <SelectItem value="pharmacy">Retail Pharmacy Design</SelectItem>
+                <SelectItem value="office">Office Interiors</SelectItem>
+                <SelectItem value="fnb">F&B & Cafeteria</SelectItem>
+                <SelectItem value="residential">Residential Home</SelectItem>
+                <SelectItem value="other">Other</SelectItem>
+              </SelectContent>
+            </Select>
             <textarea
               className={`${inputClass} min-h-[120px] resize-none`}
               placeholder="Tell us about your project…"
