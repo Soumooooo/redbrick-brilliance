@@ -44,7 +44,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <a href="#" className="font-display text-xl font-semibold tracking-tight">
-          <span className="text-primary">Red</span>brick
+          <span className="text-primary">Red</span> Brick Infrastructure
         </a>
 
         {/* Desktop */}
