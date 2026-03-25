@@ -25,8 +25,24 @@ const ContactSection = () => {
     return () => ctx.revert();
   }, []);
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      firstName: formData.get('firstName'),
+      lastName: formData.get('lastName'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      service: formData.get('service'),
+      message: formData.get('message'),
+      timestamp: new Date().toISOString(),
+    };
+    
+    console.log('[v0] Contact form submission:', data);
+    
+    // TODO: Replace with actual backend API call
+    // Example: fetch('/api/contact', { method: 'POST', body: JSON.stringify(data) })
+    
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -94,12 +110,12 @@ const ContactSection = () => {
           {/* Form */}
           <form onSubmit={handleSubmit} className="contact-anim space-y-4">
             <div className="grid grid-cols-2 gap-4">
-              <input className={inputClass} placeholder="First name" required />
-              <input className={inputClass} placeholder="Last name" />
+              <input name="firstName" className={inputClass} placeholder="First name" required />
+              <input name="lastName" className={inputClass} placeholder="Last name" />
             </div>
-            <input className={inputClass} type="email" placeholder="Email address" required />
-            <input className={inputClass} placeholder="Phone number" />
-            <Select>
+            <input name="email" className={inputClass} type="email" placeholder="Email address" required />
+            <input name="phone" className={inputClass} placeholder="Phone number" />
+            <Select name="service">
               <SelectTrigger className="w-full bg-background border border-border rounded-lg px-4 py-3 h-auto text-sm text-foreground focus:ring-2 focus:ring-primary/30">
                 <SelectValue placeholder="Select a service…" />
               </SelectTrigger>
@@ -114,6 +130,7 @@ const ContactSection = () => {
               </SelectContent>
             </Select>
             <textarea
+              name="message"
               className={`${inputClass} min-h-[120px] resize-none`}
               placeholder="Tell us about your project…"
               required

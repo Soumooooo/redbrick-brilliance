@@ -70,7 +70,9 @@ const Navbar = () => {
         <button
           className="md:hidden flex flex-col gap-1.5 p-2"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
         >
           <span className={`block w-5 h-[1.5px] bg-foreground transition-transform duration-200 ${mobileOpen ? "rotate-45 translate-y-[4.5px]" : ""}`} />
           <span className={`block w-5 h-[1.5px] bg-foreground transition-opacity duration-200 ${mobileOpen ? "opacity-0" : ""}`} />
@@ -80,7 +82,12 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden mt-4 pb-4 flex flex-col gap-3 max-w-7xl mx-auto">
+        <nav
+          id="mobile-menu"
+          className="md:hidden mt-4 pb-4 flex flex-col gap-3 max-w-7xl mx-auto"
+          role="navigation"
+          aria-label="Mobile navigation"
+        >
           {navLinks.map((link) => (
             <button
               key={link.href}
@@ -90,7 +97,7 @@ const Navbar = () => {
               {link.label}
             </button>
           ))}
-        </div>
+        </nav>
       )}
     </nav>
   );
