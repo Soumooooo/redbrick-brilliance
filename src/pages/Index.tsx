@@ -16,6 +16,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingWidget from "@/components/FloatingWidget";
+import logoWatermark from "@/assets/logo-watermark.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -60,6 +61,7 @@ const Index = () => {
     <>
       {loading && <Preloader onComplete={handlePreloaderComplete} />}
       <div style={{ visibility: loading ? "hidden" : "visible" }}>
+        <img src={logoWatermark} alt="" className="logo-watermark" aria-hidden="true" />
         <Navbar />
         <main>
           <HeroSection />
