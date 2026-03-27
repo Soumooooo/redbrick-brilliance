@@ -146,6 +146,20 @@ html.lenis, html.lenis body {
   overscroll-behavior: contain;
 }
 
+/* Logo watermark */
+.logo-watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45vw;
+  max-width: 500px;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+  filter: grayscale(100%);
+}
+
 /* Horizontal scroll section */
 .horizontal-scroll-section {
   overflow: hidden;

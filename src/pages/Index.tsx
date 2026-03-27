@@ -16,6 +16,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingWidget from "@/components/FloatingWidget";
+import logoWatermark from "@/assets/logo-watermark.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
