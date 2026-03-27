@@ -70,8 +70,8 @@ const Footer = () => {
       <div className="footer-content max-w-6xl mx-auto flex flex-col items-center gap-8">
         <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-2.5 group">
-            <div className="overflow-hidden rounded-lg border border-border/50 shadow-sm transition-transform duration-300 group-hover:scale-105 group-hover:shadow-md">
-              <img src={logo} alt="Red Brick Infrastructure" className="w-10 h-10 object-contain" />
+            <div className="relative overflow-hidden rounded-lg border border-border/50 shadow-sm transition-transform duration-300 group-hover:scale-105 group-hover:shadow-md w-10 h-10">
+              <img src={logo} alt="Red Brick Infrastructure" className="absolute top-0 left-1/2 -translate-x-1/2 w-[140%] h-auto object-cover" />
             </div>
             <span className="font-display text-lg font-semibold tracking-tight">
               <span className="text-primary">Red</span> Brick Infrastructure
