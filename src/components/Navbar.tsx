@@ -45,11 +45,11 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <a href="#" className="flex items-center gap-2.5 group">
-          <div className="relative overflow-hidden rounded-lg border border-border/50 shadow-sm transition-transform duration-300 group-hover:scale-105">
+          <div className={`relative overflow-hidden rounded-lg border border-border/50 shadow-sm transition-all duration-300 group-hover:scale-105 ${scrolled ? 'w-8 h-8' : 'w-10 h-10'}`}>
             <img
               src={logo}
               alt="Red Brick Infrastructure"
-              className={`object-contain transition-all duration-300 ${scrolled ? 'w-8 h-8' : 'w-10 h-10'}`}
+              className="absolute top-0 left-1/2 -translate-x-1/2 w-[140%] h-auto object-cover"
             />
           </div>
           <span className={`font-display font-semibold tracking-tight transition-all duration-300 ${scrolled ? 'text-lg' : 'text-xl'}`}>
