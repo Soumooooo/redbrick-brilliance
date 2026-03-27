@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import logo from "@/assets/logo-watermark.jpeg";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -43,8 +44,17 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center justify-between max-w-7xl mx-auto">
-        <a href="#" className="font-display text-xl font-semibold tracking-tight">
-          <span className="text-primary">Red</span> Brick Infrastructure
+        <a href="#" className="flex items-center gap-2.5 group">
+          <div className="relative overflow-hidden rounded-lg border border-border/50 shadow-sm transition-transform duration-300 group-hover:scale-105">
+            <img
+              src={logo}
+              alt="Red Brick Infrastructure"
+              className={`object-contain transition-all duration-300 ${scrolled ? 'w-8 h-8' : 'w-10 h-10'}`}
+            />
+          </div>
+          <span className={`font-display font-semibold tracking-tight transition-all duration-300 ${scrolled ? 'text-lg' : 'text-xl'}`}>
+            <span className="text-primary">Red</span> Brick Infrastructure
+          </span>
         </a>
 
         {/* Desktop */}
