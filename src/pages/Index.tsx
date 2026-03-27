@@ -62,6 +62,7 @@ const Index = () => {
       {loading && <Preloader onComplete={handlePreloaderComplete} />}
       <div style={{ visibility: loading ? "hidden" : "visible" }}>
         <img src={logoWatermark} alt="" className="logo-watermark" aria-hidden="true" />
+        <Navbar />
         <main>
           <HeroSection />
           <AboutSection />
