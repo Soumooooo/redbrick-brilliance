@@ -15,6 +15,9 @@ import dava4 from "@/assets/dava-4.jpg";
 import dava5 from "@/assets/dava-5.jpg";
 import dava6 from "@/assets/dava-6.jpg";
 import dava7 from "@/assets/dava-7.jpg";
+import darkstore1 from "@/assets/darkstore-1.jpg";
+import darkstore2 from "@/assets/darkstore-2.jpg";
+import darkstore3 from "@/assets/darkstore-3.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
