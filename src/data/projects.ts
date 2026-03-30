@@ -88,7 +88,7 @@ export const projects: Project[] = [
     category: "F&B",
     description: "Vibrant QSR restaurant interior with industrial-chic design elements.",
     details: "A quick-service restaurant featuring an open kitchen concept, industrial exposed-brick accent walls, custom booth seating, ambient pendant lighting, and branded environmental graphics. Optimized for high footfall and fast table turnover.",
-    images: [projectRestaurant, projectCafeteria, projectOffice],
+    images: [broaster1, broaster2, broaster3, broaster4, projectRestaurant],
     year: "2023",
     location: "Kolkata, India",
     area: "1,800 sq ft",
