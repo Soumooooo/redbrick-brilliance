@@ -114,7 +114,7 @@ export const projects: Project[] = [
     category: "F&B",
     description: "A warm, inviting cafeteria space designed for relaxation and dining.",
     details: "This cafeteria features a warm material palette with wooden accents, terrazzo flooring, and lush indoor planters. The layout includes communal seating, cozy nooks, a live counter, and a dessert bar—all wrapped in soft ambient lighting.",
-    images: [projectCafeteria, projectRestaurant, projectMall],
+    images: [cafeteria1, cafeteria5, cafeteria2, cafeteria3, cafeteria4, projectCafeteria, projectRestaurant, projectMall],
     year: "2024",
     location: "Pune, India",
     area: "2,200 sq ft",
