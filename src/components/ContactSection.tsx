@@ -62,8 +62,8 @@ const ContactSection = () => {
                 <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" strokeWidth={1.5} />
                 <div>
                   <div className="text-sm font-medium mb-0.5">Email</div>
-                  <a href="mailto:info@redbrickinfrastructure.in" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                    info@redbrickinfrastructure.in
+                  <a href="mailto:redbrickinfrastructure@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    redbrickinfrastructure@gmail.com
                   </a>
                 </div>
               </div>
