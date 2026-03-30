@@ -8,6 +8,13 @@ import broaster1 from "@/assets/broaster-1.jpg";
 import broaster2 from "@/assets/broaster-2.jpg";
 import broaster3 from "@/assets/broaster-3.jpg";
 import broaster4 from "@/assets/broaster-4.jpg";
+import dava1 from "@/assets/dava-1.jpg";
+import dava2 from "@/assets/dava-2.jpg";
+import dava3 from "@/assets/dava-3.jpg";
+import dava4 from "@/assets/dava-4.jpg";
+import dava5 from "@/assets/dava-5.jpg";
+import dava6 from "@/assets/dava-6.jpg";
+import dava7 from "@/assets/dava-7.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
