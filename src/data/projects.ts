@@ -105,7 +105,7 @@ export const projects: Project[] = [
   },
   {
     id: "cafeteria-project",
-    name: "Cafeteria",
+    name: "Bar & Cafeteria",
     category: "F&B",
     description: "A warm, inviting cafeteria space designed for relaxation and dining.",
     details: "This cafeteria features a warm material palette with wooden accents, terrazzo flooring, and lush indoor planters. The layout includes communal seating, cozy nooks, a live counter, and a dessert bar—all wrapped in soft ambient lighting.",
