@@ -18,6 +18,11 @@ import dava7 from "@/assets/dava-7.jpg";
 import darkstore1 from "@/assets/darkstore-1.jpg";
 import darkstore2 from "@/assets/darkstore-2.jpg";
 import darkstore3 from "@/assets/darkstore-3.jpg";
+import cafeteria1 from "@/assets/cafeteria-1.jpg";
+import cafeteria2 from "@/assets/cafeteria-2.jpg";
+import cafeteria3 from "@/assets/cafeteria-3.jpg";
+import cafeteria4 from "@/assets/cafeteria-4.jpg";
+import cafeteria5 from "@/assets/cafeteria-5.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
