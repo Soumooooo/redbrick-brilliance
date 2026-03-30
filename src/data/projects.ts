@@ -58,7 +58,7 @@ export const projects: Project[] = [
   },
   {
     id: "blinkit-darkstore",
-    name: "Blinkit Dark Store",
+    name: " Dark Store",
     category: "Logistics",
     description: "High-efficiency dark store optimized for rapid order fulfillment.",
     details: "Engineered for speed—this dark store features optimized rack placement for pick-path efficiency, climate-controlled zones for perishables, a high-throughput dispatch bay, and industrial-grade epoxy flooring. Completed in a record 18-day turnaround.",
