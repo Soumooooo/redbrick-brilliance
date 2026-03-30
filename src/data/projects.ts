@@ -4,6 +4,10 @@ import projectDarkstore from "@/assets/project-darkstore.jpg";
 import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectCafeteria from "@/assets/project-cafeteria.jpg";
 import projectMall from "@/assets/project-mall.jpg";
+import broaster1 from "@/assets/broaster-1.jpg";
+import broaster2 from "@/assets/broaster-2.jpg";
+import broaster3 from "@/assets/broaster-3.jpg";
+import broaster4 from "@/assets/broaster-4.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
