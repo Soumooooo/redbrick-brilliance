@@ -4,6 +4,10 @@ import projectDarkstore from "@/assets/project-darkstore.jpg";
 import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectCafeteria from "@/assets/project-cafeteria.jpg";
 import projectMall from "@/assets/project-mall.jpg";
+import broaster1 from "@/assets/broaster-1.jpg";
+import broaster2 from "@/assets/broaster-2.jpg";
+import broaster3 from "@/assets/broaster-3.jpg";
+import broaster4 from "@/assets/broaster-4.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
@@ -84,7 +88,7 @@ export const projects: Project[] = [
     category: "F&B",
     description: "Vibrant QSR restaurant interior with industrial-chic design elements.",
     details: "A quick-service restaurant featuring an open kitchen concept, industrial exposed-brick accent walls, custom booth seating, ambient pendant lighting, and branded environmental graphics. Optimized for high footfall and fast table turnover.",
-    images: [projectRestaurant, projectCafeteria, projectOffice],
+    images: [broaster1, broaster2, broaster3, broaster4, projectRestaurant],
     year: "2023",
     location: "Kolkata, India",
     area: "1,800 sq ft",
