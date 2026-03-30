@@ -88,7 +88,7 @@ export const projects: Project[] = [
   },
   {
     id: "tata-1mg",
-    name: "Tata 1MG Pharmacy",
+    name: "Retail Pharmacy",
     category: "Retail",
     description: "Premium branded pharmacy with a focus on customer experience.",
     details: "A flagship pharmacy outlet featuring Tata 1MG brand guidelines, digital display integration, a wellness consultation corner, and a streamlined prescription pickup counter. Premium finishes with durable commercial-grade materials.",
