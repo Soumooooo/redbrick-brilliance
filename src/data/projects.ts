@@ -43,17 +43,6 @@ export const categories: ProjectCategory[] = ["All", "Commercial", "Retail", "Lo
 
 export const projects: Project[] = [
   {
-    id: "apollo-office",
-    name: "Apollo Office Space",
-    category: "Commercial",
-    description: "A modern corporate workspace designed for productivity and collaboration.",
-    details: "This premium office space was designed with an open-plan philosophy, integrating natural light corridors, acoustic zoning, and biophilic design elements. The project features modular workstations, executive cabins with smart glass partitions, and a rooftop recreation zone.",
-    images: [projectOffice, projectMall, projectCafeteria],
-    year: "2024",
-    location: "Kolkata, India",
-    area: "12,000 sq ft",
-  },
-  {
     id: "dava-india",
     name: "Dava India Pharmacy",
     category: "Retail",
