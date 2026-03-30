@@ -8,6 +8,13 @@ import broaster1 from "@/assets/broaster-1.jpg";
 import broaster2 from "@/assets/broaster-2.jpg";
 import broaster3 from "@/assets/broaster-3.jpg";
 import broaster4 from "@/assets/broaster-4.jpg";
+import dava1 from "@/assets/dava-1.jpg";
+import dava2 from "@/assets/dava-2.jpg";
+import dava3 from "@/assets/dava-3.jpg";
+import dava4 from "@/assets/dava-4.jpg";
+import dava5 from "@/assets/dava-5.jpg";
+import dava6 from "@/assets/dava-6.jpg";
+import dava7 from "@/assets/dava-7.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
@@ -44,7 +51,7 @@ export const projects: Project[] = [
     category: "Retail",
     description: "Clean, accessible pharmacy retail design with modern shelving systems.",
     details: "A fully branded pharmacy retail space featuring custom gondola shelving, LED-lit product displays, a dedicated consultation counter, and an ergonomic billing zone. The design prioritizes customer flow and regulatory compliance.",
-    images: [projectPharmacy, projectOffice, projectDarkstore],
+    images: [dava2, dava1, dava3, dava4, dava5, dava6, dava7, projectPharmacy],
     year: "2024",
     location: "Delhi NCR, India",
     area: "2,500 sq ft",
