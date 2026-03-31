@@ -31,6 +31,16 @@ import tata1mg5 from "@/assets/tata1mg-5.jpg";
 import tata1mg6 from "@/assets/tata1mg-6.jpg";
 import tata1mg7 from "@/assets/tata1mg-7.jpg";
 import tata1mg8 from "@/assets/tata1mg-8.jpg";
+import zeptoCafe1 from "@/assets/zepto-cafe-1.jpg";
+import zeptoCafe2 from "@/assets/zepto-cafe-2.jpg";
+import zeptoCafe3 from "@/assets/zepto-cafe-3.jpg";
+import zeptoCafe4 from "@/assets/zepto-cafe-4.jpg";
+import zeptoCafe5 from "@/assets/zepto-cafe-5.jpg";
+import zeptoCafe6 from "@/assets/zepto-cafe-6.jpg";
+import zeptoCafe7 from "@/assets/zepto-cafe-7.jpg";
+import zeptoCafe8 from "@/assets/zepto-cafe-8.jpg";
+import zeptoCafe9 from "@/assets/zepto-cafe-9.jpg";
+import zeptoCafe10 from "@/assets/zepto-cafe-10.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
@@ -78,7 +88,7 @@ export const projects: Project[] = [
     category: "Logistics",
     description: "Scalable dark store infrastructure built for quick commerce operations.",
     details: "A template-driven dark store build featuring standardized racking systems, automated inventory zones, cold-chain infrastructure, and energy-efficient LED lighting throughout. Designed for rapid replication across multiple locations.",
-    images: [projectMall, projectDarkstore, projectOffice],
+    images: [zeptoCafe1, zeptoCafe2, zeptoCafe3, zeptoCafe4, zeptoCafe5, zeptoCafe6, zeptoCafe7, zeptoCafe8, zeptoCafe9, zeptoCafe10, projectMall, projectDarkstore, projectOffice],
     year: "2023",
     location: "Bangalore, India",
     area: "3,500 sq ft",
