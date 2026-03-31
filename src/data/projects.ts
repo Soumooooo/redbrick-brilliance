@@ -23,6 +23,14 @@ import cafeteria2 from "@/assets/cafeteria-2.jpg";
 import cafeteria3 from "@/assets/cafeteria-3.jpg";
 import cafeteria4 from "@/assets/cafeteria-4.jpg";
 import cafeteria5 from "@/assets/cafeteria-5.jpg";
+import tata1mg1 from "@/assets/tata1mg-1.jpg";
+import tata1mg2 from "@/assets/tata1mg-2.jpg";
+import tata1mg3 from "@/assets/tata1mg-3.jpg";
+import tata1mg4 from "@/assets/tata1mg-4.jpg";
+import tata1mg5 from "@/assets/tata1mg-5.jpg";
+import tata1mg6 from "@/assets/tata1mg-6.jpg";
+import tata1mg7 from "@/assets/tata1mg-7.jpg";
+import tata1mg8 from "@/assets/tata1mg-8.jpg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
@@ -81,7 +89,7 @@ export const projects: Project[] = [
     category: "Retail",
     description: "Premium branded pharmacy with a focus on customer experience.",
     details: "A flagship pharmacy outlet featuring Tata 1MG brand guidelines, digital display integration, a wellness consultation corner, and a streamlined prescription pickup counter. Premium finishes with durable commercial-grade materials.",
-    images: [projectPharmacy, projectCafeteria, projectRestaurant],
+    images: [tata1mg1, tata1mg2, tata1mg3, tata1mg4, tata1mg5, tata1mg6, tata1mg7, tata1mg8, projectPharmacy, projectCafeteria, projectRestaurant],
     year: "2024",
     location: "Hyderabad, India",
     area: "3,000 sq ft",
