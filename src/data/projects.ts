@@ -74,7 +74,7 @@ export const projects: Project[] = [
   },
   {
     id: "zepto-darkstore",
-    name: "Zepto Dark Store",
+    name: "Bar & Cafeteria",
     category: "Logistics",
     description: "Scalable dark store infrastructure built for quick commerce operations.",
     details: "A template-driven dark store build featuring standardized racking systems, automated inventory zones, cold-chain infrastructure, and energy-efficient LED lighting throughout. Designed for rapid replication across multiple locations.",
