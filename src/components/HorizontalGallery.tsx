@@ -7,7 +7,7 @@ import gallery6 from "@/assets/gallery-6.jpeg";
 
 const images = [
   { src: gallery6, label: "​" },
-  { src: gallery1, label: "Open Workspace" },
+  { src: gallery1, label: "​" },
   { src: gallery2, label: "Retail Atrium" },
   { src: gallery3, label: "Pharmacy Interior" },
   { src: gallery4, label: "Restaurant Ambiance" },
