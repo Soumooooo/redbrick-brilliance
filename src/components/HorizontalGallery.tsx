@@ -13,7 +13,7 @@ const images = [
   { src: projectPharmacy, label: "Pharmacy Interior" },
   { src: projectRestaurant, label: "Restaurant Ambiance" },
   { src: projectDarkstore, label: "Logistics Hub" },
-  { src: projectCafeteria, label: "Cafeteria Design" },
+  
 ];
 
 const HorizontalGallery = () => {
