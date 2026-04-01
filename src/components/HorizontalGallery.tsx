@@ -10,7 +10,7 @@ const images = [
   { src: gallery1, label: "​" },
   { src: gallery2, label: "​" },
   { src: gallery3, label: "​" },
-  { src: gallery4, label: "Restaurant Ambiance" },
+  { src: gallery4, label: "​" },
   { src: gallery5, label: "Logistics Hub" },
 ];
 
