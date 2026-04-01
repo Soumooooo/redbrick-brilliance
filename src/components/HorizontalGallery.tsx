@@ -1,19 +1,17 @@
-import projectOffice from "@/assets/project-office.jpg";
-import projectPharmacy from "@/assets/project-pharmacy.jpg";
-import projectDarkstore from "@/assets/project-darkstore.jpg";
-import projectRestaurant from "@/assets/project-restaurant.jpg";
-import projectCafeteria from "@/assets/project-cafeteria.jpg";
-import projectMall from "@/assets/project-mall.jpg";
-import heroBg from "@/assets/hero-bg.jpg";
+import gallery1 from "@/assets/gallery-1.jpeg";
+import gallery2 from "@/assets/gallery-2.jpeg";
+import gallery3 from "@/assets/gallery-3.jpeg";
+import gallery4 from "@/assets/gallery-4.jpeg";
+import gallery5 from "@/assets/gallery-5.jpeg";
+import gallery6 from "@/assets/gallery-6.jpeg";
 
 const images = [
-  { src: heroBg, label: "Executive Suite" },
-  { src: projectOffice, label: "Open Workspace" },
-  { src: projectMall, label: "Retail Atrium" },
-  { src: projectPharmacy, label: "Pharmacy Interior" },
-  { src: projectRestaurant, label: "Restaurant Ambiance" },
-  { src: projectDarkstore, label: "Logistics Hub" },
-  
+  { src: gallery6, label: "Executive Suite" },
+  { src: gallery1, label: "Open Workspace" },
+  { src: gallery2, label: "Retail Atrium" },
+  { src: gallery3, label: "Pharmacy Interior" },
+  { src: gallery4, label: "Restaurant Ambiance" },
+  { src: gallery5, label: "Logistics Hub" },
 ];
 
 const HorizontalGallery = () => {
