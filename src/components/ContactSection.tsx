@@ -108,12 +108,13 @@ const ContactSection = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="mall-showroom">Mall & Showroom Design</SelectItem>
-                <SelectItem value="dark-store">Dark Store Fit-out</SelectItem>
-                <SelectItem value="pharmacy">Retail Pharmacy Design</SelectItem>
+                <SelectItem value="dark-store">Dark Store Fitout</SelectItem>
+                <SelectItem value="pharmacy">Retail Pharmacy Fitout</SelectItem>
                 <SelectItem value="office">Office Interiors</SelectItem>
-                <SelectItem value="fnb">F&B & Cafeteria</SelectItem>
-                <SelectItem value="residential">Residential Home</SelectItem>
-                <SelectItem value="other">Other</SelectItem>
+                <SelectItem value="cafeteria">Cafeteria Fitout</SelectItem>
+                <SelectItem value="home">Home Interiors</SelectItem>
+                <SelectItem value="industrial">Industrial Fabrication</SelectItem>
+                <SelectItem value="others">Others</SelectItem>
               </SelectContent>
             </Select>
             <textarea
