@@ -19,6 +19,9 @@ const images = [
 const HorizontalGallery = () => {
   return (
     <section className="py-16 md:py-24 section-padding">
+      <div className="max-w-6xl mx-auto text-center mb-16">
+        <h2 className="text-display text-3xl md:text-5xl font-bold">Gallery</h2>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.map((img, i) => (
           <div
