@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import logo from "@/assets/logo-watermark.jpeg";
+import logo from "@/assets/logo-icon.jpeg";
 
 const navLinks = [
   { label: "About", href: "#about" },
