@@ -9,7 +9,7 @@ const images = [
   { src: gallery6, label: "​" },
   { src: gallery1, label: "​" },
   { src: gallery2, label: "​" },
-  { src: gallery3, label: "Pharmacy Interior" },
+  { src: gallery3, label: "​" },
   { src: gallery4, label: "Restaurant Ambiance" },
   { src: gallery5, label: "Logistics Hub" },
 ];
