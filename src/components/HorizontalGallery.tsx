@@ -24,14 +24,19 @@ const HorizontalGallery = () => {
         {images.map((img, i) => (
           <div
             key={i}
-            className="relative rounded-xl overflow-hidden aspect-[3/2] group"
+            className="relative rounded-xl overflow-hidden aspect-[4/3] group"
           >
             <img
               src={img.src}
-              alt="Gallery"
+              alt={img.label}
               loading="lazy"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover"
             />
+            <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-foreground/60 to-transparent">
+              <span className="font-display text-sm font-medium text-primary-foreground">
+                {img.label}
+              </span>
+            </div>
           </div>
         ))}
       </div>
