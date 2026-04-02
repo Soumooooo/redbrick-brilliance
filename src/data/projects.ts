@@ -18,6 +18,13 @@ import dava7 from "@/assets/dava-7.jpg";
 import darkstore1 from "@/assets/darkstore-1.jpg";
 import darkstore2 from "@/assets/darkstore-2.jpg";
 import darkstore3 from "@/assets/darkstore-3.jpg";
+import darkstore4 from "@/assets/darkstore-4.jpeg";
+import darkstore5 from "@/assets/darkstore-5.jpeg";
+import darkstore6 from "@/assets/darkstore-6.jpeg";
+import darkstore7 from "@/assets/darkstore-7.jpeg";
+import darkstore8 from "@/assets/darkstore-8.jpeg";
+import darkstore9 from "@/assets/darkstore-9.jpeg";
+import darkstore10 from "@/assets/darkstore-10.jpeg";
 import cafeteria1 from "@/assets/cafeteria-1.jpg";
 import cafeteria2 from "@/assets/cafeteria-2.jpg";
 import cafeteria3 from "@/assets/cafeteria-3.jpg";
@@ -77,7 +84,7 @@ export const projects: Project[] = [
     category: "Logistics",
     description: "High-efficiency dark store optimized for rapid order fulfillment.",
     details: "Engineered for speed—this dark store features optimized rack placement for pick-path efficiency, climate-controlled zones for perishables, a high-throughput dispatch bay, and industrial-grade epoxy flooring. Completed in a record 18-day turnaround.",
-    images: [darkstore1, darkstore3, darkstore2, projectDarkstore, projectMall, projectPharmacy],
+    images: [darkstore1, darkstore3, darkstore2, darkstore4, darkstore5, darkstore6, darkstore7, darkstore8, darkstore9, darkstore10, projectDarkstore],
     year: "2023",
     location: "Mumbai, India",
     area: "4,000 sq ft",
