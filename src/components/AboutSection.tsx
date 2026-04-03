@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
   { value: "120+", label: "Projects Delivered" },
-  { value: "8+", label: "Years Experience" },
+  { value: "3+", label: "Years Experience" },
   { value: "45+", label: "Active Clients" },
 ];
 
