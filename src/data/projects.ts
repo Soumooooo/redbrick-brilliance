@@ -83,7 +83,7 @@ export const projects: Project[] = [
     name: " Dark Store",
     category: "Logistics",
     description: "High-efficiency dark store optimized for rapid order fulfillment.",
-    details: "Engineered for speed—this dark store features optimized rack placement for pick-path efficiency, climate-controlled zones for perishables, a high-throughput dispatch bay, and industrial-grade epoxy flooring. Completed in a record 18-day turnaround.",
+    details: "Engineered for speed—this dark store features optimized racking,  organised cable tray layout for proper lighting system, zero level kotha flooring, high-throughput dispatch bay, industrial-grade epoxy flooring, MS fabrication work for Cable Tray Hanging and ODU Hanging Completed in a record 18-day turnaround.",
     images: [darkstore1, darkstore3, darkstore2, darkstore4, darkstore5, darkstore6, darkstore7, darkstore8, darkstore9, darkstore10],
     year: "2023",
     location: "Mumbai, India",
