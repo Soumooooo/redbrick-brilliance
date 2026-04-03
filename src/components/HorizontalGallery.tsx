@@ -8,7 +8,7 @@ import gallery6 from "@/assets/gallery-6.jpeg";
 const images = [
   { src: gallery6, label: "Luxury Office Lounge" },
   { src: gallery1, label: "Modern Café Interiors" },
-  { src: gallery2, label: "Retail Atrium" },
+  { src: gallery2, label: "Casual Dining Interiors" },
   { src: gallery3, label: "Immersive Restaurant Interiors" },
   { src: gallery4, label: "Restaurant Ambiance" },
   { src: gallery5, label: "Pharmacy Interior" },
