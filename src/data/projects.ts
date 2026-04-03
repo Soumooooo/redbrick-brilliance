@@ -105,7 +105,7 @@ export const projects: Project[] = [
     name: "Retail Pharmacy",
     category: "Retail",
     description: "Premium branded pharmacy with a focus on customer experience.",
-    details: "A flagship pharmacy outlet featuring Tata 1MG brand guidelines, digital display integration, a wellness consultation corner, and a streamlined prescription pickup counter. Premium finishes with durable commercial-grade materials.",
+    details: "A fully branded pharmacy retail space featuring custom wooden modular gondola shelving, slotted angle rack display, CCTV setup, false ceiling work with spot light fittings, toughened glass partition, anti skit tile flooring, LED-lit product displays, a dedicated consultation counter, and an ergonomic billing zone. The design prioritizes customer flow and regulatory compliance.",
     images: [tata1mg1, tata1mg2, tata1mg3, tata1mg4, tata1mg5, tata1mg6, tata1mg7, tata1mg8],
     year: "2024",
     location: "Hyderabad, India",
