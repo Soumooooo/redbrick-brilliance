@@ -91,7 +91,7 @@ export const projects: Project[] = [
   },
   {
     id: "zepto-darkstore",
-    name: "Bar & Cafeteria",
+    name: "Bar",
     category: "Logistics",
     description: "Scalable dark store infrastructure built for quick commerce operations.",
     details: "A template-driven dark store build featuring standardized racking systems, automated inventory zones, cold-chain infrastructure, and energy-efficient LED lighting throughout. Designed for rapid replication across multiple locations.",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
   },
   {
     id: "cafeteria-project",
-    name: "Bar & Cafeteria",
+    name: "Bar",
     category: "F&B",
     description: "A warm, inviting cafeteria space designed for relaxation and dining.",
     details: "This cafeteria features a warm material palette with wooden accents, terrazzo flooring, and lush indoor planters. The layout includes communal seating, cozy nooks, a live counter, and a dessert bar—all wrapped in soft ambient lighting.",
