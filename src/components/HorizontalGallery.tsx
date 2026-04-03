@@ -11,7 +11,7 @@ const images = [
   { src: gallery2, label: "Retail Atrium" },
   { src: gallery3, label: "Pharmacy Interior" },
   { src: gallery4, label: "Restaurant Ambiance" },
-  { src: gallery5, label: "Logistics Hub" },
+  { src: gallery5, label: "Pharmacy Interior" },
 ];
 
 const HorizontalGallery = () => {
