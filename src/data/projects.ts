@@ -95,7 +95,7 @@ export const projects: Project[] = [
     category: "Logistics",
     description: "Scalable dark store infrastructure built for quick commerce operations.",
     details: "A template-driven dark store build featuring standardized racking systems, automated inventory zones, cold-chain infrastructure, and energy-efficient LED lighting throughout. Designed for rapid replication across multiple locations.",
-    images: [zeptoCafe1, zeptoCafe2, zeptoCafe3, zeptoCafe4, zeptoCafe5, zeptoCafe6, zeptoCafe7, zeptoCafe8, zeptoCafe9, zeptoCafe10, projectMall, projectDarkstore, projectOffice],
+    images: [zeptoCafe1, zeptoCafe2, zeptoCafe3, zeptoCafe4, zeptoCafe5, zeptoCafe6, zeptoCafe7, zeptoCafe8, zeptoCafe9, zeptoCafe10],
     year: "2023",
     location: "Bangalore, India",
     area: "3,500 sq ft",
