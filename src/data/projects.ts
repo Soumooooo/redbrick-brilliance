@@ -72,7 +72,7 @@ export const projects: Project[] = [
     name: "Dava India Pharmacy",
     category: "Retail",
     description: "Clean, accessible pharmacy retail design with modern shelving systems.",
-    details: "A fully branded pharmacy retail space featuring custom gondola shelving, rack display, false ceiling work with spot light fittings, toughened glass partition, anti skit tile flooring, LED-lit product displays, a dedicated consultation counter, and an ergonomic billing zone. The design prioritizes customer flow and regulatory compliance.",
+    details: "A fully branded pharmacy retail space featuring custom wooden modular gondola shelving, slotted angle rack display, CCTV setup, false ceiling work with spot light fittings, toughened glass partition, anti skit tile flooring, LED-lit product displays, a dedicated consultation counter, and an ergonomic billing zone. The design prioritizes customer flow and regulatory compliance.",
     images: [dava2, dava1, dava3, dava4, dava5, dava6, dava7],
     year: "2024",
     location: "Delhi NCR, India",
