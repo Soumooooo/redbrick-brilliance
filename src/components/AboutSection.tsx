@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const stats = [
   { value: "270+", label: "Projects Delivered" },
   { value: "3+", label: "Years Experience" },
-  { value: "45+", label: "Active Clients" },
+  { value: "37+", label: "Active Clients" },
 ];
 
 const AboutSection = () => {
