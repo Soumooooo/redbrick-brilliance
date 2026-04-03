@@ -94,7 +94,7 @@ export const projects: Project[] = [
     name: "Bar",
     category: "Logistics",
     description: "Scalable dark store infrastructure built for quick commerce operations.",
-    details: "A template-driven dark store build featuring standardized racking systems, automated inventory zones, cold-chain infrastructure, and energy-efficient LED lighting throughout. Designed for rapid replication across multiple locations.",
+    details: "This cafeteria features a warm material palette with wooden accents, terrazzo flooring, Burmese wooden wall finishing,  LED-lit product system, moduler bar counter and lush indoor planters. The layout includes communal seating, cozy nooks, a live counter, and a dessert bar—all wrapped in soft ambient lighting.",
     images: [zeptoCafe1, zeptoCafe2, zeptoCafe3, zeptoCafe4, zeptoCafe5, zeptoCafe6, zeptoCafe7, zeptoCafe8, zeptoCafe9, zeptoCafe10],
     year: "2024",
     location: "Bangalore, India",
