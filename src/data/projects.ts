@@ -73,7 +73,7 @@ export const projects: Project[] = [
     category: "Retail",
     description: "Clean, accessible pharmacy retail design with modern shelving systems.",
     details: "A fully branded pharmacy retail space featuring custom gondola shelving, LED-lit product displays, a dedicated consultation counter, and an ergonomic billing zone. The design prioritizes customer flow and regulatory compliance.",
-    images: [dava2, dava1, dava3, dava4, dava5, dava6, dava7, projectPharmacy],
+    images: [dava2, dava1, dava3, dava4, dava5, dava6, dava7],
     year: "2024",
     location: "Delhi NCR, India",
     area: "2,500 sq ft",
