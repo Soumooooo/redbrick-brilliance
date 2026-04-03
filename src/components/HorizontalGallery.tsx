@@ -6,7 +6,7 @@ import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
 
 const images = [
-  { src: gallery6, label: "Executive Suite" },
+  { src: gallery6, label: "Luxury Office Lounge" },
   { src: gallery1, label: "Cafeteria" },
   { src: gallery2, label: "Retail Atrium" },
   { src: gallery3, label: "Pharmacy Interior" },
