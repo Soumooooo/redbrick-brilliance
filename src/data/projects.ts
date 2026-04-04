@@ -61,6 +61,11 @@ import apnamart6 from "@/assets/apnamart-6.jpeg";
 import apnamart7 from "@/assets/apnamart-7.jpeg";
 import apnamart8 from "@/assets/apnamart-8.jpeg";
 import apnamart9 from "@/assets/apnamart-9.jpeg";
+import apnamart10 from "@/assets/apnamart-10.jpeg";
+import apnamart11 from "@/assets/apnamart-11.jpeg";
+import apnamart12 from "@/assets/apnamart-12.jpeg";
+import apnamart13 from "@/assets/apnamart-13.jpeg";
+import apnamart14 from "@/assets/apnamart-14.jpeg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
