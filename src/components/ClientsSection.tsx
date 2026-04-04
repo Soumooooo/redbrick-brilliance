@@ -8,6 +8,7 @@ import clientBlinkit from "@/assets/client-blinkit.png";
 import clientDava from "@/assets/client-dava.jpeg";
 import clientZepto from "@/assets/client-zepto.png";
 import clientBigbasket from "@/assets/client-bigbasket.png";
+import clientApnamart from "@/assets/client-apnamart.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,6 +19,7 @@ const clients = [
   { name: "Dava India", logo: clientDava },
   { name: "Zepto", logo: clientZepto },
   { name: "BigBasket", logo: clientBigbasket },
+  { name: "Apna Mart", logo: clientApnamart },
 ];
 
 const ClientsSection = () => {
