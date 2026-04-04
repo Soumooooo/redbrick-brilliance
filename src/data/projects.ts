@@ -142,4 +142,15 @@ export const projects: Project[] = [
     location: "Pune, India",
     area: "2,200 sq ft",
   },
+  {
+    id: "apnamart-retail",
+    name: "F&B Retail Outlet",
+    category: "Retail",
+    description: "Modern retail outlet with organized shelving and branded storefront.",
+    details: "A fully equipped retail outlet featuring modular gondola shelving, organized storage bins, LED tube lighting, CCTV surveillance setup, ceiling fan and ventilation infrastructure, and a clean branded exterior with illuminated signage. The space is designed for efficient product display and customer accessibility.",
+    images: [apnamart1, apnamart2, apnamart3, apnamart4, apnamart5],
+    year: "2024",
+    location: "Delhi NCR, India",
+    area: "2,000 sq ft",
+  },
 ];
