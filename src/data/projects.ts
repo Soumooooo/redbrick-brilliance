@@ -154,7 +154,7 @@ export const projects: Project[] = [
   {
     id: "apnamart-retail",
     name: "F&B Retail Outlet",
-    category: "Retail",
+    category: "F&B",
     description: "Modern retail outlet with organized shelving and branded storefront.",
     details: "A fully equipped retail outlet featuring modular gondola shelving, organized storage bins, LED tube lighting, CCTV surveillance setup, ceiling fan and ventilation infrastructure, and a clean branded exterior with illuminated signage. The space is designed for efficient product display and customer accessibility.",
     images: [apnamart1, apnamart2, apnamart3, apnamart4, apnamart5, apnamart6, apnamart7, apnamart8, apnamart9, apnamart10, apnamart11, apnamart12, apnamart13, apnamart14],
