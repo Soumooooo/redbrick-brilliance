@@ -30,6 +30,10 @@ import cafeteria2 from "@/assets/cafeteria-2.jpg";
 import cafeteria3 from "@/assets/cafeteria-3.jpg";
 import cafeteria4 from "@/assets/cafeteria-4.jpg";
 import cafeteria5 from "@/assets/cafeteria-5.jpg";
+import cafeteriaNew1 from "@/assets/cafeteria-new-1.jpeg";
+import cafeteriaNew2 from "@/assets/cafeteria-new-2.jpeg";
+import cafeteriaNew3 from "@/assets/cafeteria-new-3.jpeg";
+import cafeteriaNew4 from "@/assets/cafeteria-new-4.jpeg";
 import tata1mg1 from "@/assets/tata1mg-1.jpg";
 import tata1mg2 from "@/assets/tata1mg-2.jpg";
 import tata1mg3 from "@/assets/tata1mg-3.jpg";
@@ -128,7 +132,7 @@ export const projects: Project[] = [
     category: "F&B",
     description: "A warm, inviting cafeteria space designed for relaxation and dining.",
     details: "This cafeteria features a warm material palette with wooden accents, terrazzo flooring, and lush indoor planters. The layout includes communal seating, cozy nooks, a live counter, and a dessert bar—all wrapped in soft ambient lighting.",
-    images: [cafeteria1, cafeteria5, cafeteria2, cafeteria3, cafeteria4],
+    images: [cafeteriaNew1, cafeteriaNew2, cafeteriaNew3, cafeteriaNew4, cafeteria1, cafeteria5, cafeteria2, cafeteria3, cafeteria4],
     year: "2024",
     location: "Pune, India",
     area: "2,200 sq ft",
