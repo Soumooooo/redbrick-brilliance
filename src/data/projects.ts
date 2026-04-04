@@ -52,6 +52,11 @@ import zeptoCafe7 from "@/assets/zepto-cafe-7.jpg";
 import zeptoCafe8 from "@/assets/zepto-cafe-8.jpg";
 import zeptoCafe9 from "@/assets/zepto-cafe-9.jpg";
 import zeptoCafe10 from "@/assets/zepto-cafe-10.jpg";
+import apnamart1 from "@/assets/apnamart-1.jpeg";
+import apnamart2 from "@/assets/apnamart-2.jpeg";
+import apnamart3 from "@/assets/apnamart-3.jpeg";
+import apnamart4 from "@/assets/apnamart-4.jpeg";
+import apnamart5 from "@/assets/apnamart-5.jpeg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
