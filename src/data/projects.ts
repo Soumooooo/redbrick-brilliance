@@ -52,6 +52,11 @@ import zeptoCafe7 from "@/assets/zepto-cafe-7.jpg";
 import zeptoCafe8 from "@/assets/zepto-cafe-8.jpg";
 import zeptoCafe9 from "@/assets/zepto-cafe-9.jpg";
 import zeptoCafe10 from "@/assets/zepto-cafe-10.jpg";
+import apnamart1 from "@/assets/apnamart-1.jpeg";
+import apnamart2 from "@/assets/apnamart-2.jpeg";
+import apnamart3 from "@/assets/apnamart-3.jpeg";
+import apnamart4 from "@/assets/apnamart-4.jpeg";
+import apnamart5 from "@/assets/apnamart-5.jpeg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
@@ -136,5 +141,16 @@ export const projects: Project[] = [
     year: "2024",
     location: "Pune, India",
     area: "2,200 sq ft",
+  },
+  {
+    id: "apnamart-retail",
+    name: "F&B Retail Outlet",
+    category: "Retail",
+    description: "Modern retail outlet with organized shelving and branded storefront.",
+    details: "A fully equipped retail outlet featuring modular gondola shelving, organized storage bins, LED tube lighting, CCTV surveillance setup, ceiling fan and ventilation infrastructure, and a clean branded exterior with illuminated signage. The space is designed for efficient product display and customer accessibility.",
+    images: [apnamart1, apnamart2, apnamart3, apnamart4, apnamart5],
+    year: "2024",
+    location: "Delhi NCR, India",
+    area: "2,000 sq ft",
   },
 ];
