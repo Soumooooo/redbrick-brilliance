@@ -61,6 +61,11 @@ import apnamart6 from "@/assets/apnamart-6.jpeg";
 import apnamart7 from "@/assets/apnamart-7.jpeg";
 import apnamart8 from "@/assets/apnamart-8.jpeg";
 import apnamart9 from "@/assets/apnamart-9.jpeg";
+import apnamart10 from "@/assets/apnamart-10.jpeg";
+import apnamart11 from "@/assets/apnamart-11.jpeg";
+import apnamart12 from "@/assets/apnamart-12.jpeg";
+import apnamart13 from "@/assets/apnamart-13.jpeg";
+import apnamart14 from "@/assets/apnamart-14.jpeg";
 
 export type ProjectCategory = "All" | "Commercial" | "Retail" | "Logistics" | "F&B";
 
@@ -152,7 +157,7 @@ export const projects: Project[] = [
     category: "Retail",
     description: "Modern retail outlet with organized shelving and branded storefront.",
     details: "A fully equipped retail outlet featuring modular gondola shelving, organized storage bins, LED tube lighting, CCTV surveillance setup, ceiling fan and ventilation infrastructure, and a clean branded exterior with illuminated signage. The space is designed for efficient product display and customer accessibility.",
-    images: [apnamart1, apnamart2, apnamart3, apnamart4, apnamart5, apnamart6, apnamart7, apnamart8, apnamart9],
+    images: [apnamart1, apnamart2, apnamart3, apnamart4, apnamart5, apnamart6, apnamart7, apnamart8, apnamart9, apnamart10, apnamart11, apnamart12, apnamart13, apnamart14],
     year: "2024",
     location: "Delhi NCR, India",
     area: "2,000 sq ft",
