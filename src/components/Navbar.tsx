@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className={`relative overflow-hidden rounded-lg border border-primary/20 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md group-hover:border-primary/40 ${scrolled ? 'w-8 h-8' : 'w-10 h-10'}`}>
             <img
               src={logo}
-              alt="Red Brick Infrastructure"
+              alt="Redbrick Infrastructure"
               className="w-full h-full object-cover"
             />
           </div>
