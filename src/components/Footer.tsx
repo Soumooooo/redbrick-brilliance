@@ -38,7 +38,7 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/redbrickinfrastructure?igsh=MTE5cWg5Y3czZjY3dg==",
     color: "#E1306C",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 relative z-[3] transition-all duration-500 group-hover:[transform:rotateY(360deg)]">
