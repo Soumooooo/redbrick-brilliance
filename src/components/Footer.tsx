@@ -38,7 +38,7 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/redbrickinfrastructure?igsh=MTE5cWg5Y3czZjY3dg==",
     color: "#E1306C",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 relative z-[3] transition-all duration-500 group-hover:[transform:rotateY(360deg)]">
@@ -99,6 +99,8 @@ const Footer = () => {
             <a
               key={s.label}
               href={s.href}
+              target={s.href.startsWith("http") ? "_blank" : undefined}
+              rel={s.href.startsWith("http") ? "noopener noreferrer" : undefined}
               aria-label={s.label}
               className="group relative w-12 h-12 rounded-full border-2 border-border bg-card flex items-center justify-center overflow-hidden text-foreground hover:text-white transition-colors duration-500"
             >
