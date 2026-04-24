@@ -109,7 +109,7 @@ export const projects: Project[] = [
   },
   {
     id: "zepto-darkstore",
-    name: "cafeteria",
+    name: "Cafeteria",
     category: "Logistics",
     description: "Scalable dark store infrastructure built for quick commerce operations.",
     details: "This cafeteria features a warm material palette with wooden accents, terrazzo flooring, Burmese wooden wall finishing,  LED-lit product system, moduler bar counter and lush indoor planters. The layout includes communal seating, cozy nooks, a live counter, and a dessert bar—all wrapped in soft ambient lighting.",
