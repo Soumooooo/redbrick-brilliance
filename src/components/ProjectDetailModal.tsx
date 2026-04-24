@@ -135,7 +135,23 @@ const ProjectDetailModal = ({ project, onClose, onNext, onPrev, hasNext, hasPrev
             {/* Gallery Grid */}
             <div>
               <h3 className="text-display text-lg font-semibold mb-3">Gallery</h3>
-              <div className="grid grid-cols-3 gap-2">
+              {/* Mobile: horizontal swipe carousel */}
+              <div
+                className="md:hidden -mx-6 px-6 flex gap-2 overflow-x-auto snap-x snap-mandatory overscroll-x-contain touch-pan-x scrollbar-none"
+                style={{ scrollbarWidth: "none", WebkitOverflowScrolling: "touch" }}
+              >
+                {project.images.map((img, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setLightboxIndex(i)}
+                    className="relative w-[80%] flex-shrink-0 aspect-[4/3] rounded-lg overflow-hidden snap-center"
+                  >
+                    <img src={img} alt="" loading="lazy" className="w-full h-full object-cover" />
+                  </button>
+                ))}
+              </div>
+              {/* Tablet/Desktop: original grid */}
+              <div className="hidden md:grid grid-cols-3 gap-2">
                 {project.images.map((img, i) => (
                   <button
                     key={i}
