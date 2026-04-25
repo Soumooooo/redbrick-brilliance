@@ -221,6 +221,13 @@ html.lenis, html.lenis body {
   opacity: 1;
 }
 
+@media (hover: none) and (max-width: 768px) {
+  .project-card .overlay {
+    opacity: 1;
+    background: linear-gradient(to top, hsla(20, 10%, 12%, 0.85), hsla(20, 10%, 12%, 0.1) 70%, transparent);
+  }
+}
+
 /* Service card hover */
 .service-card {
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
