@@ -88,13 +88,16 @@ const ProjectDetailModal = ({ project, onClose, onNext, onPrev, hasNext, hasPrev
             </div>
           </div>
 
-          {/* Thumbnail strip */}
-          <div className="flex gap-2 px-6 -mt-6 relative z-10">
+          {/* Thumbnail strip - swipeable on mobile, static on md+ */}
+          <div
+            className="flex gap-2 px-6 -mt-6 relative z-10 overflow-x-auto md:overflow-x-visible snap-x snap-mandatory md:snap-none overscroll-x-contain touch-pan-x scrollbar-none"
+            style={{ scrollbarWidth: "none", WebkitOverflowScrolling: "touch" }}
+          >
             {project.images.map((img, i) => (
               <button
                 key={i}
                 onClick={() => setActiveImage(i)}
-                className={`w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden border-2 transition-all flex-shrink-0 ${
+                className={`w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden border-2 transition-all flex-shrink-0 snap-start ${
                   i === activeImage ? "border-primary shadow-lg scale-105" : "border-background/80 opacity-70 hover:opacity-100"
                 }`}
               >
